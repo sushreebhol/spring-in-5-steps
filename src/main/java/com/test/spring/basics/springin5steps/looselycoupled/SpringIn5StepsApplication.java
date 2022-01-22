@@ -9,7 +9,7 @@ public class SpringIn5StepsApplication {
 		
 		BinarySearchImpl binarySearchImpl = new BinarySearchImpl(new BubbleSortAlgorithm());
 		int result = binarySearchImpl.binarySearch(new int[]{7, 4, 3, 5} , 3);
-		System.out.println(result);
+		System.out.println("New changed code for git push"+result);
 	}
 
 }
