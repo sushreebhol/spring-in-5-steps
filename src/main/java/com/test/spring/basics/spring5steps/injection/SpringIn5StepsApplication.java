@@ -12,7 +12,7 @@ public class SpringIn5StepsApplication {
 		ApplicationContext applicationContext = SpringApplication.run(SpringIn5StepsApplication.class, args);
 		BinarySearchImpl binarySearchImpl = applicationContext.getBean(BinarySearchImpl.class);
 		int result = binarySearchImpl.binarySearch(new int[]{7, 4,3} , 3);
-		System.out.println(result);
+		System.out.println("Changed Code"+result);
 	}
 
 }
